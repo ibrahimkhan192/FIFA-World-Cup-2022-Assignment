@@ -22,7 +22,7 @@ main{
  
 }
 
-/* Hero Section */
+/* <!--=================================Hero Section Start ============================================--> */
 .hero-section{
  background: black;
  color: #FFFFFF;
@@ -31,7 +31,7 @@ main{
  justify-content: center;
  align-items: center;
  padding:2% 5% 0;
- border-radius: 30px;
+ border-radius: 20px;
 }
 .hero-info{
   margin-bottom: 50px;
@@ -60,17 +60,25 @@ height: 56px;
 border: none;
 border-radius: 5px;
 }
-
-
-.watch-btn, .sidebar-btn:hover{
- background: #DD0000;
- color: #FFFFFF;
- transition: 0.9s;
+.watch-btn:hover{
+  background: #DD0000;
+  transition: 0.9s;
+}
+.watch-btn a:hover{
+  color: #FFFFFF;
 }
 
+.sidebar-btn:hover{
+ background: #DD0000;
+ transition: 0.9s;
+}
+.sidebar-btn a:hover{
+  color: #FFFFFF;
+}
+/* <!--================================= Hero Section End ============================================--> */
 
 
-/* Blog Section */
+/* ======================Blog Section Start ====================*/
 .blog-section{
  display: flex;
  grid-template-columns: repeat(3, 1fr);
@@ -95,7 +103,6 @@ margin-right: 20px;
  font-size: 20px;
 
 }
-
 .sidebar-btn {
 width: 252px;
 height: 64px;
@@ -118,8 +125,7 @@ border-radius: 10px;
  color: #FFFFFF;
 }
 
-
-/* Card */
+/*== Blog Card=== */
 .blog-cards, .match-cards{
  display: grid;
  grid-template-columns: repeat(3, 1fr);
@@ -136,31 +142,8 @@ border-radius: 10px;
 .blog-banner img{
   width: 100%;
 }
-.country-flag{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-}
-.country-flag img{
-  width: 93.04px;
-  height: 56.18px;
-}
-.country-flag h4{
-  margin: 0px 20px;
-}
 .blog-details{
   margin-top: 20px;
-}
-.match-details p{
-  text-align: center;
-  margin: 0px;
-  color: #009833;
-}
-.match-details h4{
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 8px;
 }
 .blog-btn{
   width:100px;
@@ -171,34 +154,22 @@ border-radius: 10px;
  font-size: 20px;
  font-weight: 500;
 }
-
 .blog-info{
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
-.match-live-items{
-  background: white;
-  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
-  padding: 0px 15px 0px;
-  border-radius: 20px;
-  display: block;
+.blog-duration{
+  display: flex;
   justify-content: center;
-  align-items: center;
+  margin-right: 15px;
 }
-.match-live-btn button{
-display: block;
-align-content: center;
-width: 120px;
-height: 50px;
-border: none;
-border-radius: 10px;
-background: #007354;
-color: #FFFFFF;
-margin:20px auto 20px;
-font-size: 16px;
-font-weight: 600;
+
+.blog-duration img{
+  margin-right: 5px;
+}
+.blog-duration .comment{
+  margin-top: -2px;
 }
 
 .blog-duration{
@@ -228,23 +199,79 @@ font-size: 20px;
 .fa-star.empty{
   color: #AEAEAE;
 }
+/* ======================Blog Section End ====================*/
 
-
-.blog-duration{
-padding: 3px 8px;
-background: #FFE4E8;
-border-radius: 14.6913px;
+/* ================Match Section Start============================ */
+.country-flag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
-.blog-duration span{
-font-size: 13px;
+.country-flag img{
+  width: 93.04px;
+  height: 56.18px;
+}
+.country-flag h4{
+  margin: 0px 20px;
+}
+.published-time{
+  margin-right: 0px;
+}
+.match-details p{
+  text-align: center;
+  margin: 0px;
+  color: #009833;
+}
+.match-details h4{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.published-time span{
+  padding: 4px 8px;
+  border-radius: 14.6913px;
+  margin-left: 75px;
+  }
+  
+.match-live-items{
+  background: white;
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+  padding: 0px 15px 0px;
+  border-radius: 20px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.match-live-btn button{
+display: block;
+align-content: center;
+width: 120px;
+height: 50px;
+border: none;
+border-radius: 10px;
+background: #007354;
+color: #FFFFFF;
+margin:20px auto 20px;
+font-size: 16px;
+font-weight: 600;
+}
+
+.published-time span{
+padding: 4px 8px;
+border-radius: 14.6913px;
+margin-left: 75px;
 }
 
 .last{
 margin-bottom: 70px;
 }
+/* ================Match Section End============================ */
 
-/* ============================================================ */
-/* footer */
+
+/* ========================/* footer======================== */
+
 footer{
   background:#161616 ;
   padding: 5%;
