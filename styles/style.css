@@ -53,13 +53,22 @@ main{
  font-weight: 700;
 }
 .watch-btn{
- background: #DD0000;
+ background: #007354;
  color: white;
  width: 187px;
 height: 56px;
 border: none;
 border-radius: 5px;
 }
+
+
+.watch-btn, .sidebar-btn:hover{
+ background: #DD0000;
+ color: #FFFFFF;
+ transition: 0.9s;
+}
+
+
 
 /* Blog Section */
 .blog-section{
@@ -100,26 +109,27 @@ border-radius: 10px;
  color: #FFFFFF;
 }
 .blog .sidebar-btn{
- background: #DD0000;
+ background: #007354;
  color: #FFFFFF;
 }
 
 .upcoming-matches .sidebar-btn{
- background: #DD0000;
+ background: #007354;
  color: #FFFFFF;
 }
 
 
 /* Card */
-.blog-cards{
+.blog-cards, .match-cards{
  display: grid;
  grid-template-columns: repeat(3, 1fr);
  grid-gap: 20px;
 }
+
 .blog-card-items{
   background: white;
   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
-  padding: 15px;
+  padding: 10px;
   border-radius: 20px;
   justify-content: center;
 }
@@ -130,6 +140,7 @@ border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 .country-flag img{
   width: 93.04px;
@@ -141,11 +152,15 @@ border-radius: 10px;
 .blog-details{
   margin-top: 20px;
 }
-.blog-details p{
+.match-details p{
   text-align: center;
   margin: 0px;
   color: #009833;
-  text-transform: uppercase;
+}
+.match-details h4{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .blog-btn{
   width:100px;
@@ -166,9 +181,11 @@ border-radius: 10px;
 .match-live-items{
   background: white;
   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
-  padding: 15px;
+  padding: 0px 15px 0px;
   border-radius: 20px;
+  display: block;
   justify-content: center;
+  align-items: center;
 }
 .match-live-btn button{
 display: block;
@@ -177,10 +194,11 @@ width: 120px;
 height: 50px;
 border: none;
 border-radius: 10px;
-background: #DD0000;
+background: #007354;
 color: #FFFFFF;
-margin:20px auto;
-font-size: 18px;
+margin:20px auto 20px;
+font-size: 16px;
+font-weight: 600;
 }
 
 .blog-duration{
@@ -190,14 +208,14 @@ font-size: 18px;
 font-size: 20px;
 }
 .fa-heart{
-  color:red;
+  color:#DD0000;
 }
 .fa-thumbs-up{
   color: #007aff;
 }
 
 .fa-face-grin-hearts{
-  background:red ;
+  background:#DD0000;
   color: #FFC014;
   border-radius: 100%;
 }
