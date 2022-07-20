@@ -147,6 +147,15 @@ border-radius: 10px;
   color: #009833;
   text-transform: uppercase;
 }
+.blog-btn{
+  width:100px;
+ height:32px;
+ border: 1px solid green;
+ color: black;
+ border-radius: 5px;
+ font-size: 20px;
+ font-weight: 500;
+}
 
 .blog-info{
   display: flex;
