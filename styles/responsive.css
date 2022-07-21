@@ -1,3 +1,6 @@
+
+
+/*================ Mobile Device====================== */
 @media screen and (max-width: 576px){
         .container{
         width: 90%;
@@ -57,6 +60,7 @@
         }
 }
 
+/*================ tablate Device====================== */
 @media screen and (min-width:577px) and (max-width:992px){
        .container{
        width: 90%;
