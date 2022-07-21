@@ -24,7 +24,7 @@ main{
 
 /* <!--=====================Hero Section Start =======================--> */
 .hero-section{
- background: black;
+ background: #170f40;
  color: #FFFFFF;
   display: grid;
   grid-template-columns:repeat(2, 1fr);
