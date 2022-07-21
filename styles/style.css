@@ -148,7 +148,7 @@ border-radius: 10px;
 .blog-btn{
   width:100px;
  height:32px;
- border: 1px solid green;
+ border: 1px solid #007354;
  color: black;
  border-radius: 5px;
  font-size: 20px;
@@ -221,7 +221,7 @@ font-size: 20px;
 .match-details p{
   text-align: center;
   margin: 0px;
-  color: #009833;
+  color: #007354;
 }
 .match-details h4{
   font-size: 20px;
@@ -320,7 +320,7 @@ display: none;
  }
 
  .view-all-btn{
-background: #DD0000;
+background: #007354;
 width: 131px;
 height: 47px;
 border: none;
